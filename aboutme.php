@@ -11,7 +11,6 @@
 </head>
 
 <body>
-
     <section class="aboutme" id="aboutme">
 
     <a href="./home.php">
