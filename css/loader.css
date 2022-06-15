@@ -34,8 +34,8 @@ body{
     border-radius: 50%;
     border-top: 5px solid #f9e445;
     position: relative;
-    left:50%;
-    top:50%;
+    left:45%;
+    top:32%;
     animation: load 5s linear ;
     
   }
@@ -82,8 +82,8 @@ color: #ffffff;
     width: 60px;
     
     height: 60px;
-    top: 62%;
-    left: 51.5%;
+    top: 44%;
+    left: 46.5%;
     }
   
   @keyframes load {

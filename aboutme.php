@@ -38,7 +38,7 @@
                 consiste en estar dispuestos a descubrir aquello que desconocemos”</h5>
         </section>
         <section class="aboutgrid">
-            <h3>COMO SOY</h3>
+            <h3>CÓMO SOY</h3>
             <div class="aboutrow">
                 <div class="grid">
                     <h4>CURIOSA</h4>
@@ -61,7 +61,7 @@
                         y como una oportunidad de aprendizaje.</p>
                 </div>
         </section>
-        <section class="aboutslider">
+        <section class="aboutgrid">
             <h3>INFORMÁTICA</h3>
         </section> 
         <div class="slideshow-container">
