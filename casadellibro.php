@@ -1,0 +1,108 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CASA DEL LIBRO- Propuesta de campaña </title>
+    <link rel="stylesheet" href="./css/casadellibro.css">
+</head>
+
+<body>
+    <section class="primera_franja">
+        <div class="foto_cabecera">
+
+        </div>
+
+
+
+        <div class="text_description">
+            <div class="cabecera">
+                <h3>LA CASA DEL LIBRO</h3>
+                <!--- ya están las clases puestas igual-->
+                <h2>Diseñadora gráfica</h2>
+                <!--- ya están las clases puestas igual-->
+            </div>
+
+            <div class="tabla_proyectos">
+                <div class="table_options">
+                    <h2>CLIENTE</h2>
+                    <h3>LA CASA DEL LIBRO</h3>
+                </div>
+                <div class="table_options">
+                    <h2>ROLE</h2>
+                    <h3>Diseñadora gráfica</h3>
+                </div>
+                <div class="table_options">
+                    <h2>INDUSTRIA</h2>
+                    <h3>Publicidad y Marketing</h3>
+                </div>
+                <div class="table_options">
+                    <h2>PROGRAMAS</h2>
+                    <h3>Figma,Illustrator,Photoshop</h3>
+                </div>
+
+            </div>
+
+
+
+            <div class="text_objetivo">
+                <h3 class="titulo_empresa">OBJETIVO</h3>
+                <!--- ya están las clases puestas igual-->
+                <p>Realización de una campaña integrada, con el objetivo de dar a conocer el lanzamiento de una
+                    colección de 100 ejemplares con las obras fundamentales de la literatura mundial. La acción va
+                    dirigida a personas que les gusta leer y la literatura de calidad, porque son aficionados.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="segunda_franja">
+        <div class="fotos_cabecera">
+            <!--- es igual que la de conectados, con dos fotos-->
+            <img src="images/3casadelibro/street1.png" alt="">
+            <img src="images/3casadelibro/street2.png" alt="">
+        </div>
+
+        <div class="titulo_proyect">
+            <h3>PROCESO</h3>
+            <div class="proceso">
+
+                <!--- iguales que las clases de arriba pero con más espacio a la izq-->
+                <img src="images/3casadelibro/logocasadelibro.png" alt="">
+                <p>“En primer lugar, se ha creado un logo que sirva únicamente de referente para esta colección. Al ser
+                    una colección con los 100 ejemplares más relevantes de la historia, se escogió el símbolo de la
+                    huella, haciendo referencia a aquellas obras que han marcado la literatura mundial, además de
+                    conservar la “L” corporativa de la Casa del Libro, para hacer suya la colección.</p>
+            </div>
+        </div>
+        <div class="solucion">
+            <h3 class="titulo_solucion">SOLUCIÓN - GRÁFICAS EXTERIOR</h3>
+            <div class="parrafo_solucion">
+                <p class="text_objetivo">Las gráficas pretenden reflejar la esencia de cada obra, mostrando datos claves
+                    y relevantes de estas, que sólo aquellos aficionados a la literatura entienden. El titular de las
+                    gráficas hace referencia a una palabra de gran significado para cada obra. A continuación, como si
+                    de un diccionario se tratase, se explica el significado tan extraño de cada palabra, para que se
+                    entienda la referencia, haciendo un “guiño” a los entendidos que viendo el titular, ya sabían a lo
+                    que se refería. Se pretende impactar a los apasionados de la literatura, acompañando el copy con una
+                    imagen que refleja de que obra se trata cada gráfica, conectando de esta forma, todos los elementos.
+                </p>
+            </div>
+
+            <div class="tres_imagenes_solucion">
+                <img class="foto_individual" src="images/3casadelibro/casalibro_grafica1.png" alt="">
+                <img class="foto_individual" src="images/3casadelibro/casalibro_grafica2.png" alt="">
+                <img class="foto_individual" src="images/3casadelibro/casalibro_grafica3.png" alt="">
+            </div>
+
+            <div class="vuelta_portfolio">
+                <a href="./proyectos.php
+                   "> <button>IR AL PORTFOLIO</button></a>
+                
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

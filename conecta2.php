@@ -1,0 +1,113 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conecta2</title>
+    <link rel="stylesheet" href="./css/conecta2.css">
+</head>
+
+<body>
+    <section class="primera_franja">
+        <div class="foto_cabecera">
+
+        </div>
+
+
+
+        <div class="text_description">
+            <div class="cabecera">
+                <h3>CONECTADOS</h3>
+                <!--- ya están las clases puestas igual-->
+                <h2>UX/UI Designer </h2>
+                <!--- ya están las clases puestas igual-->
+            </div>
+
+            <div class="tabla_proyectos">
+                <div class="table_options">
+                    <h2>CLIENTE</h2>
+                    <h3>CONECTADOS</h3>
+                </div>
+                <div class="table_options">
+                    <h2>ROLE</h2>
+                    <h3>UX/UI Designer</h3>
+                </div>
+                <div class="table_options">
+                    <h2>INDUSTRIA</h2>
+                    <h3>Publicidad y Marketing</h3>
+                </div>
+                <div class="table_options">
+                    <h2>PROGRAMAS</h2>
+                    <h3>Figma</h3>
+                </div>
+
+            </div>
+
+
+
+            <div class="text_objetivo">
+                <h3 class="titulo_empresa">OBJETIVO</h3>
+                <!--- ya están las clases puestas igual-->
+                <p>Realización de una página web que sea capaz de transmitir a los padres la necesidad de informarse
+                    sobre la burbuja digital en la que están inmersos sus hijos hoy en día, que ayude a proyectar un
+                    futuro en redes sociales, creando una sociedad informada, consciente y con capacidad de toma de
+                    decisiones.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="segunda_franja">
+        <div class="fotos_cabecera">
+
+            <img src="images/6conectados/mockupconectados1.jpg" alt="">
+            <img src="images/6conectados/mockupconectados2.jpg" alt="">
+        </div>
+
+        <div class="titulo_proyect">
+            <h3>PROCESO</h3>
+            <div class="proceso">
+
+                <img src="images/6conectados/logoconectadosverde.png" alt="">
+                <img src="images/6conectados/logoconectadosnegro.png" alt="">
+            </div>
+        </div>
+        <div class="solucion">
+            <h3 class="titulo_solucion">SOLUCIÓN</h3>
+            <div class="parrafo_solucion">
+                <p class="text_objetivo">Tras la revolución tecnológica, se ha producido un nuevo entorno digital ha
+                    provocado un exceso de información de los usuarios, los cuales muchas veces no saben cómo
+                    gestionarla y no son capaces de diferenciar entre información veraz y útil de entre todas las
+                    fuentes a las que acceden.</p>
+                <p class="text_objetivo">Esto resulta en la desinformación por parte de los usuarios, concretamente
+                    de un grupo de población que no ha sido capaz de seguirle el ritmo al desarrollo tecnológico que ha
+                    tenido lugar, refiriéndonos así, a los padres de los hijos hoy adolescentes y jóvenes, que ya han
+                    crecido como nativos digitales.</p>
+                <p class="text_objetivo"> Por ello, se ha querido dar respuesta a esta necesidad mediante el
+                    desarrollo de una plataforma digital dirigida a este público, que espera poder ofrecerles las
+                    herramientas necesarias para que, sintiéndose cómodos e integrados, conozcan el entorno digital de
+                    sus hijos y puedan así, adaptar su educación a esta nueva realidad.</p>
+            </div>
+
+            <div class="tres_imagenes_solucion">
+                <img class="foto_individual" src="images/6conectados/landingconectadoss.png" alt="">
+                <img class="foto_individual" src="images/6conectados/noticiasconectadoss.png" alt="">
+                <img class="foto_individual" src="images/6conectados/actividadesconectadoss.png" alt="">
+            </div>
+            <div class=boton_figma>
+                <button class="figma">
+                    <a href="https://www.figma.com/file/HNpEsRRMqyZ302wnrRKMmG/CONECTADOS" target="_blank">FIGMA</a>
+                </button>
+            </div>
+            <div class="vuelta_portfolio">
+                <a href="./proyectos.php
+                   "> <button>IR AL PORTFOLIO</button></a>
+
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

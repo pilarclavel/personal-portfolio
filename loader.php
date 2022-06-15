@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Loader</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <script src="./js/load.js" defer></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>    <img src="./images/logo.PNG" alt="" class="imgload"> </img>
+<div class="loader" id="loader">
+
+ <div class="contador">
+        <div class="color_fondo" id="fondo_color">
+         
+        </div>
+   <div class="numero" id="numero"> 
+          
+        </div>
+    </div>
+   
+</div>   
+
+</body>
+</html>
