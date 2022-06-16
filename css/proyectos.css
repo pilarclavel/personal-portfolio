@@ -8,6 +8,18 @@
   width: 52%;
 }
 
+
+footer {
+    background-color: yellow;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-family: 'Jost',sans-serif;
+    font-size: 1rem;
+    line-height: 8px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 label {
   box-sizing: border-box;
   display: inline-block;

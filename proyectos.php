@@ -1,3 +1,8 @@
+<?php
+
+define('nombre', 'Pilar Clavel');
+
+?>
 <!DOCTYPE html>
 <html>
 
@@ -107,7 +112,12 @@
                 </div>
             </div>
         </div>
-
+        <div>
+	<footer>
+			
+			<h4> Todos los derechos reservados &copy;  <?= '<h3>' .nombre. '</h3>'?> <?=date('Y')?>
+		</h4></footer>
+</div>
 
 
 </body>

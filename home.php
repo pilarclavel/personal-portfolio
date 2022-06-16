@@ -65,12 +65,7 @@ define('nombre', 'Pilar Clavel');
         </div>
     </section>
     <a href="./aboutme.php"> <button class="homediscover">DESCUBRE MÁS</button></a>
-<div>
-	<footer>
-			
-			Todos los reservados &copy; <?= '<h3 style="color:yellow;">'.nombre.'</h3>'?> <?=date('Y')?>
-		</footer>
-</div>
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js" referrerpolicy="no-referrer"
         defer></script>

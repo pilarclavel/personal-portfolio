@@ -107,7 +107,7 @@ section{
    display: block;
    font-size: 2rem;
    padding: 2rem 0rem;
-   margin: 0rem 1rem 48.8rem 0rem;
+   margin: 0rem 1rem 44.8rem 0rem;
    font-family: 'Jaldi', sans-serif;
    color: rgba(56, 36, 36, 0.184);
    
@@ -271,15 +271,7 @@ display: flex;}
    margin: 0rem 0rem 0rem 78rem;
    cursor: pointer;
 }
-footer{
 
-   color: yellow;
-   text-align: center;
-   padding-top: 12rem;
-   font-family: 'Jost',sans-serif;
-   font-size: 1.3rem;
-
-}
 /* media queries  */
 @media (max-width:1400px){ 
    .about .content, .title h3{
