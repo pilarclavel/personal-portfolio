@@ -10,6 +10,6 @@ let tiempo = setInterval(() => {
 
    if (cantidad === 100) {
       clearInterval(tiempo)
-      window.location.replace("./home.php")
+      window.location.replace("./home.html")
    }
 }, 100);
