@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap');
+@import url("loader.css");
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+
+:root{
+   --yellow:#ffcc0d;
+   --black:#000;
+   --white:#fff;
+   --light-bg:#eee;
+   --border-bold:.5rem solid var(--black);
+   --border-light:.2rem solid var(--black);
+}
+
+*{
+   font-family: 'Jost', sans-serif;
+   margin:0; padding:0;
+   box-sizing: border-box;
+   outline: none; border:none;
+   text-decoration: none;
+   color:var(--black);
+}
+
+*::selection{
+   background-color: var(--white);
+   color:var(--yellow);
+}
+
+*::-webkit-scrollbar{
+   height: .5rem;
+   width: 1rem;
+}
+
+*::-webkit-scrollbar-track{
+   background-color: transparent;
+}
+
+*::-webkit-scrollbar-thumb{
+   background-color: var(--yellow);
+}
+
+html{
+   font-size: 62.5%;
+   overflow-x: hidden;
+   scroll-behavior: smooth;
+}
+
+body{
+  
+   transition: .2s linear !important;
+   background-color: rgb(0, 0, 0);
+   color: var(--white);
+}
+
+body.active{
+   padding-left: 35rem;
+}
+
+section{
+   padding:3rem 3rem;
+   margin: 0 auto;
+   max-width: 2200px;
+   text-align: center;
+      
+}
+
+.heading{
+   margin-bottom: 3rem;
+   text-align: center;
+}
+
+.heading span{
+   text-transform: uppercase;
+   font-size: 6.5rem;
+   border-bottom: var(--border-bold);
+}
+
+.header{
+   position: fixed;
+   top: 0;
+   left: -35rem;
+   height: 100vh;
+   width: 22rem;
+   padding: 2rem 5rem;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   flex-flow: column;
+   transition: .2s linear !important;
+   text-align: center;
+   z-index: 1000;
+
+}
+
+.header .logo{
+   text-transform: uppercase;
+   border-bottom: var(--border-bold);
+   font-weight: bolder;
+   font-size: 4.5rem;
+}
+
+.header .navbar{
+   width: 100%;
+}
+
+.header .navbar a{
+   display: block;
+   font-size: 2rem;
+   padding: 2rem 0rem;
+   margin: 0rem 1rem 44.8rem 0rem;
+   font-family: 'Jaldi', sans-serif;
+   color: rgba(56, 36, 36, 0.184);
+   
+
+}
+.num{
+   transform: rotate(-90deg);  
+   font-family: 'Jaldi', sans-serif;
+   font-size: 5rem;
+color: #FFF5004D;
+position: absolute;
+margin: -2.5rem 0rem 0rem -6rem;
+
+}
+.header .navbar a.active,
+.header .navbar a:hover{
+   border-left: 1rem solid var(--yellow);
+   font-family: 'Jaldi', sans-serif;
+   color: white;
+}
+
+.header .follow a{
+   font-size: 3rem;
+   margin:0 1rem;
+   cursor: pointer;
+   transition: .6s linear !important;
+}
+
+.header .follow a:hover{
+   transform: rotate(360deg);
+}
+
+#menu-btn{
+   position: absolute;
+   top:0; right:-5.5rem;
+   height: 4.5rem;
+   line-height: 4.5rem;
+   width: 5rem;
+   font-size: 2.5rem;
+   cursor: pointer;
+   background-color: var(--black);
+   color:var(--white);
+}
+
+.header.active{
+   left: 0;
+}
+.v-line{
+   border-left: thick solid rgb(243, 243, 243);
+   height:auto;
+   left: 50%;
+   
+  }
+  
+.home{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap: 2rem;
+   min-height: 100vh;
+   margin-left: 12rem;
+   max-height: max-content;
+}
+
+.home .image{
+   flex:1 1 40rem;
+}
+
+.home .image img{
+   height: 69rem;
+}
+
+.home .content{
+   flex:1 1 40rem;
+}
+
+.home .content h3{
+   font-size: 9rem;
+    text-align: initial;
+    line-height: 9rem;
+}
+.im{
+   font-family: 'Jaldi', sans-serif;
+   color: rgb(255, 255, 255);
+}
+.pil{
+   font-family: 'Jaldi', sans-serif;
+   color: #FFF500 !important;
+font-weight: 800;
+
+}
+.home .content span{
+   display: inline-block;
+   padding:1rem 2rem;
+   background-color: var(--yellow);
+   font-size: 2.5rem;
+   margin:1rem 0;
+}
+
+.home .content p{
+   font-size: 1.7rem;
+   line-height: 2;
+   padding:1rem 0;
+}
+/*ABOUT*/
+.typing{
+   font-family: 'Jaldi', sans-serif;
+   color: #FFF500 !important;
+font-weight: 800;
+}
+
+.about{
+   display: flex;
+   align-items: center;
+   flex-wrap: wrap;
+   gap:2rem;
+   min-height: 100vh;
+   margin-bottom: -12rem;
+   
+}
+
+.about .image{
+   flex:1 1 40rem;
+}
+
+.about .image  img{
+   height: 71rem;
+   padding:0rem;
+}
+
+.about .content{
+   flex:1 1 40rem;
+}
+.title{
+display: flex;}
+
+.about .content, .title h3{
+   font-size: 6rem;
+    text-align: initial;
+    line-height: 9rem;
+    color:var(--white);
+    padding: 1rem;
+    
+   
+}
+.about .content p {
+   font-size: 2rem;
+   text-align: justify;
+   line-height: 5rem;
+   color: var(--white);
+   padding: 1rem 13rem 0rem 1rem;
+   font-family: 'Jaldi' ,sans-serif;
+}
+
+.homediscover{
+   background-color: #aaa52b;
+   padding: 1rem 3rem;
+   border-radius: 1rem;
+   font-family: 'Jaldi' , sans-serif;
+   font-size: 2rem;
+   margin: 0rem 0rem 0rem 78rem;
+   cursor: pointer;
+}
+
+/* media queries  */
+@media (max-width:1400px){ 
+   .about .content, .title h3{
+   font-size: 5rem;
+    text-align: initial;
+    line-height: 6rem;
+    color:var(--white);
+    padding: 1rem;
+    
+   
+}
+.about .content p {
+   font-size: 2rem;
+   text-align: initial;
+   line-height: 3rem;
+   color: var(--white);
+   padding: 1rem 18rem 0rem 1rem;
+   font-family: 'Jaldi' ,sans-serif;
+}
+
+
+}
+@media (max-width:991px){
+
+   html{
+      font-size: 55%;
+   }
+   .header.active{
+      padding-top: 0rem;
+      left: 0;
+   }
+   .header .navbar a {
+      display: block;
+      font-size: 2rem;
+      padding: 2rem 0rem;
+      margin: 0rem 1rem 70.1rem 0rem;}
+   .header {
+      position: fixed;
+      top: 0;
+      left: -4em;
+      height: 100vh;
+      width: 22rem;
+      padding: 2rem 5rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      flex-flow: column;
+      transition: .2s linear !important;
+      text-align: center;
+      z-index: 1000;}
+   body.active{
+      padding-left: 0;
+   }
+   .home .content h3{
+      font-size:6rem;
+      text-align: center;
+      line-height: 6rem;
+   }
+   .about .content, .title h3{
+      font-size: 5rem;
+       text-align: initial;
+       line-height: 6rem;
+       color:var(--white);
+       padding: 1rem;
+      
+   }
+   .home{
+      display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 2rem;
+    min-height: 100vh;
+    margin-left: 0;
+    max-height: max-content;
+   }
+   .about .content p {
+      font-size: 1.8rem;
+      text-align: initial;
+      line-height: 3rem;
+      color: var(--white);
+      padding: 1rem 1rem 0rem 1rem;
+      font-family: 'Jaldi' ,sans-serif;
+   }
+   .homediscover{
+      background-color: #aaa52b;
+      padding: 1rem 3rem;
+      border-radius: 1rem;
+      font-family: 'Jaldi' , sans-serif;
+      font-size: 2rem;
+      cursor: pointer;
+      margin: 13rem 13rem;   }
+      .title {
+         display: block;}
+}

@@ -1,0 +1,151 @@
+
+body{
+    background-color: black;
+    height: 690px;
+}  
+.contador{
+    height:auto;
+    width: auto;
+ margin: 7em 0em;
+  
+   
+  
+}
+.numero{
+    height: 100%;
+    width: 100%;
+    font-family: 'Jaldi' ,sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2.2em;
+    line-height: 220px;
+    color: #ffffff;
+     text-align: center;
+    line-height: 100px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+.loader {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 5px solid #f9e445;
+    position: relative;
+    left:45%;
+    top:32%;
+    animation: load 5s linear ;
+    
+  }
+  
+  .loader::before,.loader::after {
+    content: '';
+    width: 100px;
+    height: 100px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-sizing: border-box;
+    border-radius: 50%;
+  }
+  
+  .loader::before {
+    border-top: 5px solid #c17f15;
+    transform: rotate(120deg);
+  }
+  
+  .loader::after {
+    border-top: 5px solid #ed5853;
+    transform: rotate(240deg);
+  }
+  .loader p{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    font-family: 'Jaldi' ,sans-serif;
+font-style: normal;
+font-weight: 700;
+font-size: 2.2em;
+line-height: 220px;
+color: #ffffff;
+    text-align: center;
+    line-height: 100px;
+    animation: a2 5s linear ;
+  }
+
+
+
+  .imgload{
+    position: relative;
+    width: 60px;
+    
+    height: 60px;
+    top: 44%;
+    left: 46.5%;
+    }
+  
+  @keyframes load {
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  @keyframes a2 {
+    to {
+      transform: rotate(-360deg);
+    }
+  }
+
+ 
+ 
+ @media (max-width:991px){
+ 
+  .imgload{
+    position: relative;
+    width: 60px;
+    
+    height: 60px;
+    top: 40%;
+    left: 41.5%;
+    }
+    .contador{
+      height:auto;
+      width: auto;
+   margin: 8em 0em;
+    
+     
+    
+  }
+  .numero{
+      height: 100%;
+      width: 100%;
+      font-family: 'Jaldi' ,sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 2.2em;
+      line-height: 220px;
+      color: #ffffff;
+       text-align: center;
+      line-height: 100px;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     
+  }
+  .loader {
+    width: 100px;
+    height: 100px;
+    box-sizing: border-box;
+    border-radius: 50%;
+    border-top: 5px solid #f9e445;
+    position: relative;
+    left:50%;
+    top:50%;
+    animation: load 5s linear ;
+    top: 28%;
+     left: 37%;
+  }
+ }
+ 

@@ -1,0 +1,218 @@
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+
+.foto_cabecera{
+    background: url(../images/6conectados/mockupgrandeconectados.jpg) no-repeat center bottom;
+    background-size: cover;
+    height: 122vh;
+    width: 100%;
+}
+.cabecera{
+    font-family: 'Jost',sans-serif;
+    margin: 0rem 5rem;}
+.cabecera h3{
+    font-weight: 200;
+    font-size: 1.5rem;
+}
+
+.text_description{
+    font-family: 'Jaldi',sans-serif;
+    margin: 3rem 3rem;
+}
+.titulo_empresa{
+   
+    font-weight: 400;
+}
+.titulo_role{
+   
+    font-weight: 800;
+    margin: 3rem 2rem;
+
+}
+.table_options h2{
+    font-weight: 200;
+    font-family: 'Jost',sans-serif;
+    font-size: 1.2rem;
+}
+.tabla_proyectos{
+    display: flex;
+    justify-content: space-around;
+  margin-top: 2rem;
+}
+.fotos_cabecera{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.fotos_cabecera img{
+    width: 40%;
+    padding: 0rem 2rem;
+}
+.segunda_franja{
+    font-family: 'Jaldi',sans-serif;
+    margin: 3rem 3rem;
+}
+.text_body,
+.parrafo_solucion,
+.text_objetivo,
+.texto_cabecera {
+    
+    margin: 3rem 3rem;
+    
+}
+.parrafo_solucion{
+    font-size: 1.4rem;
+    padding-bottom: 2rem;
+    font-family: 'Jost',sans-serif;
+    font-weight: 200;
+}
+.proceso{
+ 
+    display: flex;
+    margin: 6rem 3rem;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.proceso img{
+    width: 30%;
+    padding-right: 4rem;
+}
+.proceso p{
+    margin: 0rem 5rem 0rem 15rem;
+    font-size: 1.2rem;
+}   
+.text_body h3{
+    font-family: 'Jaldi',sans-serif;
+    font-weight: 800;
+font-size: 1.5rem ;
+padding: 3rem 4rem;}
+.tres_imagenes_solucion{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+.tres_imagenes_solucion img{
+    padding: 1rem 2rem;
+width: 29%;
+}
+.vuelta_portfolio{
+    text-align: center;
+   
+    margin: 2rem 0rem;
+}
+.vuelta_portfolio button{
+    font-family: 'Jaldi',sans-serif;
+    font-weight: 800;
+    border: 0;
+    background-color: white; 
+    font-size: 1.5rem;
+    text-decoration: underline;
+    cursor: pointer;
+}
+.titulo_empresa {
+    padding: 1rem 2rem !important;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-family: 'Jost',sans-serif;
+   
+}
+.titulo_proyect h3{
+    margin:6rem 6rem 0rem;
+    font-weight: 800;
+    font-size: 1.6rem;
+}
+.text_objetivo p{
+    padding: 0.5rem 3rem;
+    font-size: 1.4rem;
+    font-family: 'Jost',sans-serif;
+    font-weight: 200;
+}
+.titulo_solucion{
+    padding: 1rem 5rem;
+    font-weight: 400;
+    font-size: 1.4rem;
+    font-family: 'Jost',sans-serif;
+}
+.boton_figma{
+    width: 100%;
+    text-align: center;
+    margin: 3rem 0rem;
+}
+.figma {
+    background-color: #FFF500;
+    border: 0;
+    border-radius: 1rem;
+    padding: 1rem 1rem;
+  
+}
+.figma a{
+    color: black;
+    font-family: 'Jaldi',sans-serif;
+    font-weight: 400;
+    font-size: 1.2rem;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+/*MEDIA QUERIES*/
+@media (max-width:991px) {
+
+    .cabecera {
+        margin: 0;
+    }
+
+    .tabla_proyectos {
+        display: block;
+    }
+
+    .text_body,
+    .parrafo_solucion,
+    .text_objetivo,
+    .texto_cabecera {
+        margin: 1rem;
+    }
+.text_objetivo p{
+    margin: 0;
+}
+    .fotos_cabecera {
+        background:url('../images/2ikea/streetikea.png') no-repeat center center ;
+        background-size:cover;
+        height:35vh;
+        width: 100%;
+    }
+
+    .fotos_cabecera {
+        width: 100%;
+        display: block;}
+
+    .proceso {
+        display: block;
+        margin: 3rem 2rem;    }
+
+    .proceso img {
+        width: 100%;
+        padding-right: 0;
+        padding-bottom: 2rem;
+    }
+
+    .proceso p {
+        margin: 3rem 0rem;
+    }
+
+    .segunda_franja {
+        margin: 3rem 1rem;
+    }
+    .text_description {
+        margin: 3rem 1rem;}
+        .tres_imagenes_solucion {
+            display: block;}
+            .tres_imagenes_solucion img {
+                padding: 1rem 0rem;
+                width: 100%;}
+                .foto_cabecera {
+                    background: url(../images/6conectados/mockupgrandeconectados.jpg) no-repeat center bottom;
+                    background-size: cover;
+                    height: 69vh;
+                    width: 100%;}
+}

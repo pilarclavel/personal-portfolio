@@ -1,0 +1,44 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Jaldi:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300;500;700&display=swap');
+
+.home{
+    
+    text-align: center;
+    height: 100%;
+}
+.home h3{
+    font-family: 'Jost', sans-serif;
+    font-weight: 400;
+    font-size: 4rem;
+    margin-top: 17rem;
+}
+.homebutton{
+    background-color: #F8FD00;
+    padding: 0.5rem 4rem;
+    border-radius: 1rem;
+    font-family: 'Jaldi' , sans-serif;
+    font-weight: 800;
+    font-size: 1.5rem;
+    cursor: pointer;
+    border:0;
+ }
+ @media (max-width:991px) {
+    .home h3{
+        font-family: 'Jost', sans-serif;
+        font-weight: 400;
+        font-size: 3rem;
+        margin-top: 12rem;
+    }
+    .homebutton{
+        background-color: #F8FD00;
+        padding: 0.5rem 4rem;
+        border-radius: 1rem;
+        font-family: 'Jaldi' , sans-serif;
+        font-weight: 800;
+        font-size: 1.5rem;
+        cursor: pointer;
+        border:0;
+     }
+    
+    }
