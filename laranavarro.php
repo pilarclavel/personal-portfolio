@@ -1,0 +1,102 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Lara Navarro </title>
+    <link rel="stylesheet" href="./css/laranavarro.css">
+</head>
+
+<body>
+    <section class="primera_franja">
+        <div class="foto_cabecera">
+
+        </div>
+
+
+
+        <div class="text_description">
+            <div class="cabecera">
+                <h3>LARA NAVARRO</h3>
+
+                <h2>Diseñadora gráfica</h2>
+
+            </div>
+
+            <div class="tabla_proyectos">
+                <div class="table_options">
+                    <h2>CLIENTE</h2>
+                    <h3>LARA NAVARRO</h3>
+                </div>
+                <div class="table_options">
+                    <h2>ROLE</h2>
+                    <h3>Diseñadora gráfica</h3>
+                </div>
+                <div class="table_options">
+                    <h2>INDUSTRIA</h2>
+                    <h3>Belleza</h3>
+                </div>
+                <div class="table_options">
+                    <h2>PROGRAMAS</h2>
+                    <h3>Illustrator, Photoshop</h3>
+                </div>
+
+            </div>
+
+
+
+            <div class="text_objetivo">
+                <h3 class="titulo_empresa">OBJETIVO</h3>
+                <p>El salón de belleza Lara Navarro pretende tener más visibilidad en la zona en la que está
+                    posicionada, para ello, se tratará de dar más notoriedad a la empresa frente a su competencia,
+                    fortaleciendo su imagen corporativa. A su vez, se quiere dar a conocer la incorporación de un nuevo
+                    tratamiento en el salón.</p>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="segunda_franja">
+
+
+        <div class="titulo_proyect">
+            <h3>PROCESO</h3>
+            <div class="proceso">
+
+                <img src="images/5laranavarro/logolaranavarro.png" alt="">
+                <p>Para conseguir estos objetivos, se han llevado a cabo dos tácticas de comunicación, cumpliendo, sobre
+                    todo, el presupuesto que tiene en salón de belleza Lara Navarro. La primera de estas tácticas se
+                    centrará en su difusión y visibilización en redes sociales y la segunda de ellas, en la celebración
+                    de un evento.</p>
+            </div>
+        </div>
+        <div class="solucion">
+            <h3 class="titulo_solucion">SOLUCIÓN</h3>
+            <div class="parrafo_solucion">
+                <p class="text_objetivo">La primera de estas tácticas consistirá en el envío de un email a los usuarios
+                    que ya conforman la base de datos del negocio. Este email les llevará a la página web del salón, con motivo de
+                    invitar a los clientes a participar en un sorteo de un tratamiento. La participación será a través
+                    de redes sociales para que llegue a un número mayor de usuarios.
+                    La segunda de las tácticas, consiste en la realización de un evento con el fin de presentar un nuevo
+                    tratamiento que será implementado en el salón, al cual solo se podrá acceder con invitación,
+                    teniendo que ser registrarse previamente en la página web del salón.
+                </p>
+            </div>
+
+            <div class="tres_imagenes_solucion">
+                <img class="foto_individual" src="images/5laranavarro/invitacion1.png" alt="">
+                <img class="foto_individual" src="images/5laranavarro/invitacion2.png" alt="">
+                <img class="foto_individual" src="images/5laranavarro/invitacion3.png" alt="">
+            </div>
+            <div class="vuelta_portfolio">
+                <a href="./proyectos.php
+                   "> <button>IR AL PORTFOLIO</button></a>
+
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>

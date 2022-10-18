@@ -1,0 +1,105 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ikea </title>
+    <link rel="stylesheet" href="./css/ikea.css">
+</head>
+
+<body>
+    <section class="primera_franja">
+        <div class="foto_cabecera">
+
+        </div>
+
+
+
+        <div class="text_description">
+            <div class="cabecera">
+                <h3>IKEA</h3>
+                <!--- ya están las clases puestas igual-->
+                <h2>Diseñadora gráfica</h2>
+                <!--- ya están las clases puestas igual-->
+            </div>
+
+            <div class="tabla_proyectos">
+                <div class="table_options">
+                    <h2>CLIENTE</h2>
+                    <h3>IKEA</h3>
+                </div>
+                <div class="table_options">
+                    <h2>ROLE</h2>
+                    <h3>Diseñadora gráfica</h3>
+                </div>
+                <div class="table_options">
+                    <h2>INDUSTRIA</h2>
+                    <h3>Publicidad y Marketing</h3>
+                </div>
+                <div class="table_options">
+                    <h2>PROGRAMAS</h2>
+                    <h3>Figma,Illustrator,Photoshop</h3>
+                </div>
+
+            </div>
+
+
+
+            <div class="text_objetivo">
+                <h3 class="titulo_empresa">OBJETIVO</h3>
+                <!--- ya están las clases puestas igual-->
+                <p>Realización de una campaña integrada, con el objetivo de impulsar el proyecto #SalvemosLosMuebles
+                    redirigiendo el modelo de negocio hacia una economía circular.</p>
+            </div>
+        </div>
+    </section>
+
+<div class="fotos_cabecera">
+            <!--- es igual que la de conectados, con dos fotos-->
+         
+        </div>
+    <section class="segunda_franja">
+        
+
+        <div class="titulo_proyect">
+            <h3>PROCESO</h3>
+            <div class="proceso">
+
+                <!--- iguales que las clases de arriba pero con más espacio a la izq-->
+                <img src="images/2ikea/logoikea.png" alt="">
+                <p>“Desde Ikea, se propone una nueva idea de reutilización de muebles que ya han tenido uso en otros
+                    hogares, con la intención de crear el “Desván de las Oportunidades”, donde los usuarios podrán subir
+                    fotos de sus muebles de Ikea y otros, a un precio más rebajado, podrán adquirirlos, dando así una
+                    segunda vida a muebles ya utilizados.</p>
+            </div>
+        </div>
+        <div class="solucion">
+            <h3 class="titulo_solucion">SOLUCIÓN</h3>
+            <div class="parrafo_solucion">
+                <p class="text_objetivo">Creación de una campaña publicitaria, que incluye también una acción de street
+                    marketing, con la intención de aumentar su visibilidad. También en redes sociales, específicamente
+                    en instagram, se propone el reto de subir un story con una foto creativa con el hashtag
+                    #SalvemosLosMuebles, donde los participantes deben enseñar el lugar que quieren que sea aún más
+                    especial con un mueble procedente del “Desván de las Oportunidades”, donde los tres primeros
+                    ganadores, tendrán tres muebles completamente gratuitos para poder hacer un hogar un poco más suyo y
+                    acogedor.
+                </p>
+            </div>
+
+            <div class="tres_imagenes_solucion">
+                <img class="foto_individual" src="images/2ikea/ikea_grafica1.png" alt="">
+                <img class="foto_individual" src="images/2ikea/ikea_grafica2.png" alt="">
+            </div>
+
+            <div class="vuelta_portfolio">
+                <a href="./proyectos.php
+                   "> <button>IR AL PORTFOLIO</button></a>
+
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
